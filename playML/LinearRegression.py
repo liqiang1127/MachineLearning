@@ -35,7 +35,7 @@ class LinearRegression:
 
         # 梯度 返回值是一个向量
         def dJ(theta, X_b, y):
-            res = np.empty(len(theta))
+            # res = np.empty(len(theta))
             # res[0] = np.sum(X_b.dot(theta) - y)
             # for i in range(1, len(theta)):
             #     res[i] = (X_b.dot(theta) - y).dot(X_b[:, i])
